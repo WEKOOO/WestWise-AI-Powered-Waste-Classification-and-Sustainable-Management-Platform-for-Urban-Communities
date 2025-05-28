@@ -1,0 +1,26 @@
+{
+  "name": "westwise-ai-powered-waste-classification-and-sustainable-management-platform-for-urban-communities",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx concurrently \"npm run start:backend\" \"npm run start:frontend\"",
+    "start:backend": "npm --prefix backend start",
+    "start:frontend": "npm --prefix frontend start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/WEKOOO/WestWise-AI-Powered-Waste-Classification-and-Sustainable-Management-Platform-for-Urban-Communities.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WEKOOO/WestWise-AI-Powered-Waste-Classification-and-Sustainable-Management-Platform-for-Urban-Communities/issues"
+  },
+  "homepage": "https://github.com/WEKOOO/WestWise-AI-Powered-Waste-Classification-and-Sustainable-Management-Platform-for-Urban-Communities#readme",
+  "description": "",
+  "devDependencies": {
+    "concurrently": "^7.6.0"
+  }
+}
